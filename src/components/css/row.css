@@ -1,0 +1,35 @@
+.post-containers {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  scrollbar-width: none;
+}
+.row-heading{
+  color: white;
+  margin-top: 5px;
+  padding-left: 12px;
+  text-transform: uppercase;
+}
+.post-containers::-webkit-scrollbar {
+display: none;
+}
+
+.post-image {
+  object-fit: contain;
+  width: 100%;
+  max-height: 200px;
+  margin-right: 30px;
+  transition: transform 550ms;
+}
+.main-div{
+    max-height: 250px;
+}
+.main-div:hover{
+    transform: scale(1.9);
+
+}
+.post-image:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}

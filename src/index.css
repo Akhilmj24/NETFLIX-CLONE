@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+@import url("./components/css/row.css");
+@import url("./components/css/banner.css");
+@import url("./components/css/navbar.css");
